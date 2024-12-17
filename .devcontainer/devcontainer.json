@@ -2,9 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/cpp
 {
 	"name": "C/C++",
-	"build": {
-		"dockerfile": "Dockerfile"
-	}
+	"image": "mcr.microsoft.com/devcontainers/cpp:1-debian-12",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
